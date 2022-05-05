@@ -27,7 +27,11 @@ $ bar roye joft poshe haye decompile shode app ha ras click karde va gozine `ope
 
 ### 3 kar ra bayad anjam dahim
 
-1. **Jaygozine metasploit** Poshe "metasploit" ra az app alode dar address "smali > com > metasploit" dar hamin address dar app asli jaygozin mikonim
-2. 
-3. **Docker-composed** installed (if using Docker-compose) - [link](https://docs.docker.com/compose/install/)
+1. **Jaygozine metasploit** Poshe "metasploit" ra az app alode dar address `smali > com > metasploit` dar hamin address dar app asli jaygozin mikonim 
+2. **Edit AndroidManifest.xml** bar roye har 2 file `AndroidManifext.xml` click rast karde va `Open With "MousePad" ra mizanim va karhaye zer ra anjam midahim
+
+```text
+- copy ebeart ro b ro az "rat" b "app"        <uses-permission android:""/>
+
+```
 4. **Credentials** configured - This can be done manually or by running the `make setup` command from the root of this repo
