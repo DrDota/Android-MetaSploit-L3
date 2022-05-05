@@ -32,7 +32,7 @@ $ bar roye joft poshe haye decompile shode app ha rast click karde va gozine `op
  
 2. **Edit AndroidManifest.xml :** Bar roye har 2 file `AndroidManifext.xml` click rast karde va `Open With "MousePad" ra mizanim va karhaye zer ra anjam midahim
 
-- copy ebeart ro b ro az "rat" b "app"        
+- copy hame ebarat shamel khat zer az "rat" b "app"        
 `<uses-permission android:""/>`
 
 - search `activity android` va dar hamon khat ebarat `android:name=` ro b rosh ye hamchin chizi hast : `com.google.android.gms.common.api.GoogleApiActivity`
