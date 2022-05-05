@@ -22,3 +22,12 @@ abzar "apktool" b sorat pishfarz dar kali linux nasb nist va b shekl zer eghdam 
 ```bash
 sudo apt install apktool
 ```
+
+$ bar roye joft poshe haye decompile shode app ha ras click karde va gozine `open as Root` ra mizanim ta baz shavand
+
+### 3 kar ra bayad anjam dahim
+
+1. **Jaygozine metasploit** Poshe "metasploit" ra az app alode dar address "smali > com > metasploit" dar hamin address dar app asli jaygozin mikonim
+2. 
+3. **Docker-composed** installed (if using Docker-compose) - [link](https://docs.docker.com/compose/install/)
+4. **Credentials** configured - This can be done manually or by running the `make setup` command from the root of this repo
