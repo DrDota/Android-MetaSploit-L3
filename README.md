@@ -27,10 +27,12 @@ $ bar roye joft poshe haye decompile shode app ha rast click karde va gozine `op
 
 ### 2 kar ra bayad anjam dahim
 
-1. **Jaygozine metasploit** Poshe "metasploit" ra az app alode dar address `smali > com > metasploit` dar hamin address dar app asli jaygozin mikonim
+1. **Jaygozine metasploit** 
+Poshe "metasploit" ra az app alode dar address `smali > com > metasploit` dar hamin address dar app asli jaygozin mikonim
  
  
-2. **Edit AndroidManifest.xml** bar roye har 2 file `AndroidManifext.xml` click rast karde va `Open With "MousePad" ra mizanim va karhaye zer ra anjam midahim
+2. **Edit AndroidManifest.xml** 
+Bar roye har 2 file `AndroidManifext.xml` click rast karde va `Open With "MousePad" ra mizanim va karhaye zer ra anjam midahim
 
 - copy ebeart ro b ro az "rat" b "app"        
 `<uses-permission android:""/>`
