@@ -23,7 +23,7 @@ abzar "apktool" b sorat pishfarz dar kali linux nasb nist va b shekl zer eghdam 
 sudo apt install apktool
 ```
 
-$ bar roye joft poshe haye decompile shode app ha ras click karde va gozine `open as Root` ra mizanim ta baz shavand
+$ bar roye joft poshe haye decompile shode app ha rast click karde va gozine `open as Root` ra mizanim ta baz shavand
 
 ### 2 kar ra bayad anjam dahim
 
