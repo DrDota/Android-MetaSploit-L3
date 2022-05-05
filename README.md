@@ -17,7 +17,7 @@ har 2 app ra decompile mikonim
 
 ## Install apktool ⬇️
 
-abzar "apktool" b sorat pishfarz dar kali linux nasb nist va b shekl zer eghdam b nasb namaed
+abzar "apktool" b sorat pishfarz dar kali linux nasb nist va b shekl zer eghdam b nasb konid
 
 ```bash
 sudo apt install apktool
